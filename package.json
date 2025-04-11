@@ -1,0 +1,26 @@
+{
+  "name": "knowledge-graph-builder",
+  "version": "1.0.0",
+  "description": "Parse emails and create a knowledge graph with Neo4j",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "knowledge-graph",
+    "neo4j",
+    "emails",
+    "nlp",
+    "entity-extraction"
+  ],
+  "author": "Adil Gondal",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^0.8.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "neo4j-driver": "^5.14.0",
+    "uuid": "^9.0.1"
+  }
+}
