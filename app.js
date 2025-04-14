@@ -15,8 +15,7 @@ const LLM_CONFIG = {
   model: process.env.LLM_MODEL || 'gpt-4'
 };
 
-const EMAIL_FILE_PATH = process.env.EMAIL_FILE_PATH || './resources/email_data.csv';
-const OUTPUT_PATH = './resources/extracted_data.json';
+const EMAIL_FILE_PATH = process.env.EMAIL_FILE_PATH || 'resources/email_data.csv';
 
 /**
  * Main application for building the knowledge graph

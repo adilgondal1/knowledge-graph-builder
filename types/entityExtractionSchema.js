@@ -86,7 +86,7 @@ const entityExtractionSchema = {
           },
           'relationship': {
             type: Type.STRING,
-            description: 'Relationship type (works_for/located_in/attended/etc)',
+            description: 'Relationship type (works_for/located_in/attended/etc). Multiple words should be connected with an underscore.',
           },
           'target': {
             type: Type.STRING,
