@@ -1,0 +1,92 @@
+{
+  "events": [
+    {
+      "name": "Send edits to Prof. Lamoreaux",
+      "date": null,
+      "location": null
+    },
+    {
+      "name": "Sending edits tonight",
+      "date": "October 25, 2021",
+      "location": null
+    }
+  ],
+  "people": [
+    {
+      "name": "Lemaire, Jan-Baptist",
+      "organization": "Yale University",
+      "role": null
+    },
+    {
+      "name": "Meosky, Paul",
+      "organization": "Yale University",
+      "role": null
+    },
+    {
+      "name": "Antill, Gregory",
+      "organization": "Yale University",
+      "role": null
+    },
+    {
+      "name": "Prof. Lamoreaux",
+      "organization": null,
+      "role": "Professor"
+    }
+  ],
+  "places": [
+    {
+      "name": "Yale",
+      "type": "University"
+    }
+  ],
+  "relationships": [
+    {
+      "relationship": "works_for",
+      "source": "Lemaire, Jan-Baptist",
+      "sourceType": "person",
+      "target": "Yale",
+      "targetType": "place",
+      "context": null
+    },
+    {
+      "relationship": "works_for",
+      "source": "Meosky, Paul",
+      "sourceType": "person",
+      "target": "Yale",
+      "targetType": "place",
+      "context": null
+    },
+    {
+      "relationship": "works_for",
+      "source": "Antill, Gregory",
+      "sourceType": "person",
+      "target": "Yale",
+      "targetType": "place",
+      "context": null
+    },
+    {
+      "relationship": "send_to",
+      "source": "Send edits to Prof. Lamoreaux",
+      "sourceType": "event",
+      "target": "Prof. Lamoreaux",
+      "targetType": "person",
+      "context": null
+    },
+    {
+      "relationship": "asked_of",
+      "source": "Send edits to Prof. Lamoreaux",
+      "sourceType": "event",
+      "target": "Lemaire, Jan-Baptist",
+      "targetType": "person",
+      "context": null
+    },
+    {
+      "relationship": "related_to",
+      "source": "Sending edits tonight",
+      "sourceType": "event",
+      "target": "YJLH account",
+      "targetType": "place",
+      "context": "CC the YJLH account"
+    }
+  ]
+}
