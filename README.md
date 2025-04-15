@@ -50,13 +50,17 @@ Edit the `.env` file to configure:
 ## Usage
 
 1. Start the server:
+
+   ```
    cd backend
    npm run server
+   ```
 
 2. Start the client. In a new terminal:
+   ```
    cd client
    npm run start
-
+   ```
 3. Start your local Neo4j database
 
 4. Open your browser and navigate to:
